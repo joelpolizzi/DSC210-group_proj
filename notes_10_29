@@ -1,7 +1,7 @@
 10/29 
 
 - Reccomendation engine based on user/item similarities
-- SVT to get matrix approximations
+- SVM to get matrix approximations
 - Other ways to PCA and SVT techs for finding features
   - eigen vals and eigen vects
 
