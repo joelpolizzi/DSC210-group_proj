@@ -1,0 +1,31 @@
+10/29 
+
+- Reccomendation engine based on user/item similarities
+- SVT to get matrix approximations
+- Other ways to PCA and SVT techs for finding features
+  - eigen vals and eigen vects
+
+- Interesting to pic diferent models and compare them.
+  - Comparitive outputs of different models
+      - By hand/code/algebraic function 
+      - Transformer based model
+
+pass in dataset as arg.
+train on model
+-----------------------------------
+Action items:
+- Pick dataset
+    - get an idea of what a state of the art approach will be. 
+    - start to look at the algebraic functions behind data mining
+
+- Read up on Collaborative Filtering. 
+
+-----------------------------------
+
+Start with amazon reviews as our baseline (Hugging face dataset)
+
+======================================================================
+
+Next week: understand the above action items
+
+
