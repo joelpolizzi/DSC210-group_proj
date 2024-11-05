@@ -1,0 +1,32 @@
+- quick recap
+
+read up on chapter 5:
+https://cseweb.ucsd.edu/~jmcauley/pml/
+
+https://cseweb.ucsd.edu/classes/fa23/cse258-a/
+
+Matrix factorization
+
+Look up the approaches on basic theory for what we will be doing with linear algebra.
+
+Modern method: 
+https://arxiv.org/pdf/1904.06690
+
+Experimentations in linear algebra - coding it
+
+Modern: look into api's and libraries to implement.
+ensure we can import these libraries and externals into the notebook. 
+
+dont have to show basic numpy ops.
+
+===============================
+Goal: Be done by November 26th.
+===============================
+
+Next week action items:
+- Understand theory behind linear algebra techniques and modern approach.
+- Begin to load the dataset
+- Preprocessed
+
+
+
