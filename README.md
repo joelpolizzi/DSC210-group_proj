@@ -10,8 +10,8 @@ Examining recommendation systems past and present. We begin with a historical in
 The repo contains all our final project material including our Project Report Latex and PDF, our slides, and our jupyter notebook containing the coding portions of the project.
 
 ## Table of Contents
-- [Coding: Notebook Instructions](#Notebook)
-- [Project Report](#Report)
+- [Coding: Notebook Instructions](#Coding:_Notebook_Instructions)
+- [Project Report](#Project_Report)
 - [Slides](#Slides)
 
 ## Coding: Notebook Instructions
