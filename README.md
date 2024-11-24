@@ -22,7 +22,7 @@ We are leveraging Colab for two key resons.
 1) Ability to connect a github repository notebook
 2) Free access with GPU availability. **NOTE**: GPU is free on Google Colab as ***availability permits***. You will need to have GPU access to run out notebook in a reasonable amount of time.
 
-_ _This notebook was tested using the free T4 GPU Runtime in google colab. Though colab offers A100 and L4 cards under paid accounts however our project was not run under these environments. Please use the T4 GPU Runtime._ _
+_This notebook was tested using the free T4 GPU Runtime in google colab. Though colab offers A100 and L4 cards under paid accounts however our project was not run under these environments. Please use the T4 GPU Runtime._
 
 #### Step 1: Navigate to Colab
 Navigate to google colab: [https://colab.research.google.com](https://colab.research.google.com)
@@ -41,12 +41,17 @@ In the upper right hand corner you can see what runtime is being used. If the ru
 ![current-runtime](images/colab5.png)
 
 To change the runtime open the "Connect" dropdown Menu:
+![change-runtime](images/colab6.png)
 
 Select "Change Runtime Type" and select "T4 GPU". Make sure you Save.
+![change-runtime2](images/colab8.png)
 
 Then Select "Connect" and the Runtime will connect to the T4 GPU Runtime. 
+![connect](images/colab9.png)
 
 In the upper right hand side you should now see a green check mark with "T4"
+![connected](images/colab10.png)
+
 #### Step 5: Sequentially Run The Notebook Cells
 
 ## Project Report
