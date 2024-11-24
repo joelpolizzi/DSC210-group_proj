@@ -26,10 +26,15 @@ _ _This notebook was tested using the free T4 GPU Runtime in google colab. Thoug
 
 #### Step 1: Navigate to Colab
 Navigate to google colab: [https://colab.research.google.com](https://colab.research.google.com)
+![Open Colab](images/colab1.png)
 
 #### Step 2: Open the github repository directly from Colab
-When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. Please select this menu item.
+When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. You will need to enter in our github URL into the search field: https://github.com/joelpolizzi/DSC210-group_proj
+![Open Github](images/colab2.png)
 
+#### Step 3: Select the Group_1_DataMining.ipynb
+Select the Group_1_DataMining.ipynb notebook and the project will open
+![Open datamine](images/colab3.png)
 
 ## Project Report
 Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
