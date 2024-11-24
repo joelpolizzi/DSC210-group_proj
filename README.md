@@ -15,10 +15,21 @@ The repo contains all our final project material including our Project Report La
 - [Slides](#Slides)
 
 ## Coding: Notebook Instructions
-test
-test
-test
-test
+In order to run our notebook the following requirements must be met:
+- Google Colab Account and access to a T4 GPU
+
+We are leveraging Colab for two key resons. 
+1) Ability to connect a github repository notebook
+2) Free access with GPU availability. **NOTE**: GPU is free on Google Colab as ***availability permits***. You will need to have GPU access to run out notebook in a reasonable amount of time.
+
+_ _This notebook was tested using the free T4 GPU Runtime in google colab. Though colab offers A100 and L4 cards under paid accounts however our project was not run under these environments. Please use the T4 GPU Runtime._ _
+
+#### Step 1: Navigate to Colab
+Navigate to google colab: [https://colab.research.google.com](https://colab.research.google.com)
+
+#### Step 2: Open the github repository directly from Colab
+When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. Please select this menu item.
+
 
 ## Project Report
 Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
