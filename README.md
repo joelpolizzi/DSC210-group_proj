@@ -21,9 +21,7 @@ test
 test
 
 ## Project Report
-test
-test
-test
+Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
 
 ## Slides
 test
