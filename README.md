@@ -36,6 +36,11 @@ When You navigate to Google Colab you will be prompted to open a notebook. On th
 Select the Group_1_DataMining.ipynb notebook and the project will open
 ![Open datamine](images/colab3.png)
 
+#### Step 4: Select the T4 GPU Runtime
+In the upper right hand corner you can see what runtime is being used. If the runtime states "T4" then you can skip to [Step 5](#Step5)
+
+#### Step 5: Sequentially Run The Notebook Cells
+
 ## Project Report
 Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
 
