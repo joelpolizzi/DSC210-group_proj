@@ -10,7 +10,7 @@ Examining recommendation systems past and present. We begin with a historical in
 The repo contains all our final project material including our Project Report Latex and PDF, our slides, and our jupyter notebook containing the coding portions of the project.
 
 ## Table of Contents
-- [Coding: Notebook Instructions](#coding:-notebook-instructions)
+- [Coding: Notebook Instructions](#coding-notebook-instructions)
 - [Project Report](#project-report)
 - [Slides](#Slides)
 
@@ -37,7 +37,7 @@ Select the Group_1_DataMining.ipynb notebook and the project will open
 ![Open datamine](images/colab3.png)
 
 #### Step 4: Select the T4 GPU Runtime
-In the upper right hand corner you can see what runtime is being used. If the runtime states "T4" then you can skip to [Step 5](#step-5:-sequentially-run-the-notebook-cells)
+In the upper right hand corner you can see what runtime is being used. If the runtime states "T4" then you can skip to [Step 5](#step-5-sequentially-run-the-notebook-cells)
 
 #### Step 5: Sequentially Run The Notebook Cells
 
