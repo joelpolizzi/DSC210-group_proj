@@ -55,12 +55,11 @@ Select the Group_1_DataMining.ipynb notebook and the project will open
 **For convience, in the first two cells of our notebook we are handeling the installation of python-pip dependencies for our project.**
 - Outputs in our cells have been pre-run. When a cell is re-run the outputs will be re-written.
 - Cells should be ran sequentially
+- Run the cells to get the outputs!
 
 
 ## Project Report
 Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
 
 ## Slides
-test
-test
-test
+Slides can be found [HERE](./slides)
