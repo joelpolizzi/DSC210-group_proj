@@ -5,7 +5,7 @@
 Group 1:
 Joel Polizzi, Antariksha Ray, Lora Khatib, Jemin Vagadia
 
-Examining recommendation systems past and present. We begin with a historical introduction into basic rating systems utilizing Single Value Decomposition of a matrix to provide item ratings, to evaluating a modern linear approach of Bayesian Personalizating Ranking, and ending with a State-of-the-art approach leveraging Transformers for recommendation. 
+Examining recommendation systems past and present. We begin with a historical introduction into basic rating systems utilizing Single Value Decomposition of a matrix to provide item ratings, to evaluating a linear algebraic approach of Bayesian Personalized Ranking, and ending with a state-of-the-art approach leveraging Transformers for recommendation. 
 
 We have chosen to use the McAuley-Lab/Amazon-Reviews-2023 dataset focusing the Musical Instruments subset. The dataset set is loaded from HuggingFace.
 
