@@ -37,18 +37,15 @@ Select the Group_1_DataMining.ipynb notebook and the project will open
 ![Open datamine](images/colab3.png)
 
 #### Step 4: Select the T4 GPU Runtime
-- In the upper right hand corner you can see what runtime is being used. If the runtime states "T4" then you can skip to [Step 5](#step-5-sequentially-run-the-notebook-cells)
-- ![current-runtime](images/colab5.png)
+- In the upper right hand corner we will change the runtime. If the runtime states "T4" then you can skip to [Step 5](#step-5-sequentially-run-the-notebook-cells)
+![current-runtime](images/colab5.png)
 - To change the runtime open the "Connect" dropdown Menu:
-- ![change-runtime](images/colab6.png)
-
-Select "Change Runtime Type" and select "T4 GPU". Make sure you Save.
+![change-runtime](images/colab6.png)
+- Select "Change Runtime Type" and select "T4 GPU". Make sure you Save.
 ![change-runtime2](images/colab8.png)
-
-Then Select "Connect" and the Runtime will connect to the T4 GPU Runtime. 
+- Then Select "Connect" and the Runtime will connect to the T4 GPU Runtime.
 ![connect](images/colab9.png)
-
-In the upper right hand side you should now see a green check mark with "T4"
+- In the upper right hand side you should now see a green check mark with "T4"
 ![connected](images/colab10.png)
 
 #### Step 5: Sequentially Run The Notebook Cells
