@@ -7,6 +7,8 @@ Joel Polizzi, Antariksha Ray, Lora Khatib, Jemin Vagadia
 
 Examining recommendation systems past and present. We begin with a historical introduction into basic rating systems utilizing Single Value Decomposition of a matrix to provide item ratings, to evaluating a modern linear approach of Bayesian Personalizating Ranking, and ending with a State-of-the-art approach leveraging Transformers for recommendation. 
 
+We have chosen to use the McAuley-Lab/Amazon-Reviews-2023 dataset focusing the Musical Instruments subset. The dataset set is loaded from HuggingFace.
+
 The repo contains all our final project material including our Project Report Latex and PDF, our slides, and our jupyter notebook containing the coding portions of the project.
 
 ## Table of Contents
@@ -49,6 +51,11 @@ Select the Group_1_DataMining.ipynb notebook and the project will open
 ![connected](images/colab10.png) <br>
 
 #### Step 5: Sequentially Run The Notebook Cells
+
+**For convience, in the first two cells of our notebook we are handeling the installation of python-pip dependencies for our project.**
+- Outputs in our cells have been pre-run. When a cell is re-run the outputs will be re-written.
+- Cells should be ran sequentially
+
 
 ## Project Report
 Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
