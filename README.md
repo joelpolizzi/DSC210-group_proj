@@ -15,6 +15,7 @@ The repo contains all our final project material including our Project Report La
 - [Coding: Notebook Instructions](#coding-notebook-instructions)
 - [Project Report](#project-report)
 - [Slides](#Slides)
+- [Rehearsal Feedback](#rehearsal-feedback)
 
 ## Coding: Notebook Instructions
 In order to run our notebook the following requirements must be met:
@@ -63,3 +64,6 @@ Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
 
 ## Slides
 Slides can be found [HERE](./slides)
+
+## Rehearsal Feedback
+Rehearsal feedback can be found [HERE](./rehearsal)
