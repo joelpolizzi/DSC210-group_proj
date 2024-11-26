@@ -32,7 +32,9 @@ Navigate to google colab: [https://colab.research.google.com](https://colab.rese
 ![Open Colab](images/colab1.png)
 
 #### Step 2: Open the github repository directly from Colab
-When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. You will need to enter in our github URL into the search field: https://github.com/joelpolizzi/DSC210-group_proj
+When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. <br>
+*Note: If you are not logged into github already then you may be prompted by colab to login in order for you to connect to the repo.<br>
+You will need to enter in our github URL into the search field: https://github.com/joelpolizzi/DSC210-group_proj
 ![Open Github](images/colab2.png)
 
 #### Step 3: Select the Group_1_DataMining.ipynb
