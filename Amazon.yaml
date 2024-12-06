@@ -1,0 +1,21 @@
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+TIME_FIELD: timestamp
+
+load_col:
+    inter: [user_id, item_id, rating, timestamp]
+
+val_interval:
+    rating: "[4,inf)"
+
+eval_args:
+    split: {'RS': [8,1,1]}
+    order: TO
+    mode: full
+    group_by: user
+
+metrics: ['Recall', 'MRR', 'NDCG', 'Hit', 'MAP', 'Precision']
+topk: 10
+gpu_id: 0
+use_gpu: True
