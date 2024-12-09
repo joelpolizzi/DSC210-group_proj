@@ -75,7 +75,7 @@ Now that you have verified your phone and have imported the notebook you can ena
 In the top left menu select "Settings" and Open "Accelerator". Select GPU P100 <br>
 <img src="images/kaggle/kaggle12.png" alt="kaggle12" width="301" height="117"><br>
 
-Now, turn on Internet as well in order to download the required pip packages. If the pip fails to update with name resolution errors then double check that internet is turned on in the settings.
+Now, turn on Internet as well in order to download the required pip packages. If the pip fails to update with name resolution errors then double check that internet is turned on in the settings.<br>
 <img src="images/kaggle/kaggle13.png" alt="kaggle13" width="301" height="117"><br>
 
 #### We are now ready to run the notebook!
