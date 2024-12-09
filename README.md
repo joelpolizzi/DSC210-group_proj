@@ -31,7 +31,7 @@ _This notebook was tested using the free P100 GPU Runtime in Kaggle. Please use 
 In the right hand corner you will want to "Download raw file" to download the notebook
 ![Download Notebook](images/kaggle/github1.png) <br>
 Take note of where your download location is. 
-![Download Location](images/kaggle/download_nb.png)
+![Download Location](images/kaggle/downloaded_nb.png)
 
 #### Step 2: Navigate to Kaggle
 Navigate to Kaggle: ![https://www.kaggle.com/](https://www.kaggle.com/)
