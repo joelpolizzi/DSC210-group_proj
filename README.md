@@ -19,17 +19,23 @@ The repo contains all our final project material including our Project Report La
 
 ## Coding: Notebook Instructions
 In order to run our notebook the following requirements must be met:
-- Google Colab Account and access to a T4 GPU
+- Verified Kaggle Account with P100 GPU
 
-We are leveraging Colab for two key resons. 
-1) Ability to connect a github repository notebook
-2) Free access with GPU availability. **NOTE**: GPU is free on Google Colab as ***availability permits***. You will need to have GPU access to run out notebook in a reasonable amount of time.
+We are leveraging Kaggle for two key resons. 
+1) Ability to easily connect the notebook
+2) Free access with GPU availability. **NOTE**: GPU is free on Kaggle *** for 30 hours***. You will need to have GPU access to run out notebook. 
 
-_This notebook was tested using the free T4 GPU Runtime in google colab. Though colab offers A100 and L4 cards under paid accounts however our project was not run under these environments. Please use the T4 GPU Runtime._
+_This notebook was tested using the free P100 GPU Runtime in Kaggle. Please use the P100 GPU Runtime._
 
-#### Step 1: Navigate to Colab
-Navigate to google colab: [https://colab.research.google.com](https://colab.research.google.com)
-![Open Colab](images/colab1.png)
+#### Step 1: Download the Group_1_DataMining.ipynb fro the repository
+In the right hand corner you qwill want to "Download raw file" to download the notebook
+![Download Notebook](images/kaggle/github1) <br>
+Take note of where your download location is. 
+![Download Location](images/kaggle/download_nd)
+
+#### Step 2: Navigate to Kaggle
+Navigate to Kaggle: ![https://www.kaggle.com/](https://www.kaggle.com/)
+![Open Kaggle](images/kaggle/kaggle1.png)
 
 #### Step 2: Open the github repository directly from Colab
 When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. <br>
