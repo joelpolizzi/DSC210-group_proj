@@ -75,15 +75,16 @@ Now that you have verified your phone and have imported the notebook you can ena
 In the top left menu select "Settings" and Open "Accelerator". Select GPU P100 <br>
 <img src="images/kaggle/kaggle12.png" alt="kaggle12" width="301" height="117"><br>
 
-Now, turn on Internet as well in order to download the required pip packages
-![kaggle13](images/kaggle/kaggle13.png) <br>
+Now, turn on Internet as well in order to download the required pip packages. If the pip fails to update with name resolution errors then double check that internet is turned on in the settings.
+<img src="images/kaggle/kaggle13.png" alt="kaggle13" width="301" height="117"><br>
 
 #### We are now ready to run the notebook!
 
 #### Step 7: Sequentially Run The Notebook Cells
 
 **For convience, in the first two cells of our notebook we are handeling the installation of python-pip dependencies for our project.**
-- Outputs in our cells have been pre-run. When a cell is re-run the outputs will be re-written.
+- SVD and BPR take approximatly 15 minutes to complete. BERT4Rec takes approximatly
+- You may see Pip deps fail to resolve. The "error" can be ignored as it does not affect our notebooks run
 - Cells should be ran sequentially
 - Run the cells to get the outputs!
 
