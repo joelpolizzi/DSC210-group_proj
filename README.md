@@ -43,7 +43,7 @@ Sign in with your preferred method. I used Google.<br>
 ![kaggle_sing_in](images/kaggle/kaggle2.png) <br>
 
 Choose the account you wish to use<br>
-![kaggle_sing_in_2](images/kaggle/kaggle3.png)
+<img src="images/kaggle/kaggle3.png" alt="kaggle3" width="530" height="275"><br><br>
 
 #### Step 4: Ensure you have verified your account with Phone Verification - REQUIRED FOR GPU ACCESS
 Navigate tou your settings by clicking on the "Goose Head" icon in the upper right hand corner
