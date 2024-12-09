@@ -83,7 +83,6 @@ Now, turn on Internet as well in order to download the required pip packages. If
 #### Step 7: Sequentially Run The Notebook Cells
 
 **For convience, in the first two cells of our notebook we are handeling the installation of python-pip dependencies for our project.**
-- SVD and BPR take approximatly 15 minutes to complete. BERT4Rec takes approximatly
 - You may see Pip deps fail to resolve. The "error" can be ignored as it does not affect our notebooks run
 - Cells should be ran sequentially
 - Run the cells to get the outputs!
