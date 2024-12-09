@@ -39,18 +39,36 @@ Navigate to Kaggle: ![https://www.kaggle.com/](https://www.kaggle.com/)
 ![Open Kaggle](images/kaggle/kaggle1.png)
 
 #### Step 3: Sign in if you have already registered and account
-Sign in with your preferred method. I used Google.
-![kaggle_sing_in](images/kaggle/kaggle2.png)
+Sign in with your preferred method. I used Google.<br>
+![kaggle_sing_in](images/kaggle/kaggle2.png) <br>
 
-Choose the account you wish to use
+Choose the account you wish to use<br>
 ![kaggle_sing_in_2](images/kaggle/kaggle3.png)
 
 #### Step 4: Ensure you have verified your account with Phone Verification - REQUIRED FOR GPU ACCESS
 Navigate tou your settings by clicking on the "Goose Head" icon in the upper right hand corner
-![kaggle_goose](images/kaggle/kaggle4.png)
-![kaggle_set](images/kaggle/kaggle5.png)
-![kaggle_phone](images/kaggle/kaggle6.png)
-![kaggle_phone2](images/kaggle/kaggle7.png)
+![kaggle_goose](images/kaggle/kaggle4.png)<br>
+![kaggle_set](images/kaggle/kaggle5.png)<br>
+![kaggle_phone](images/kaggle/kaggle6.png)<br>
+![kaggle_phone2](images/kaggle/kaggle7.png)<br>
+
+_Access to GPU may take several minutes, we can now move to loading our notebook then enabling GPU_
+
+#### Step 5: Create "New" Notebook
+Navigate back to your front page and in the left hand pane select "Create" then in the drop down select "New Notebook" <br>
+![kaggle8](images/kaggle/kaggle8.png)
+
+#### Step 6: Load the notebook that you downloaded in Step 1
+In the upper left open the File menu and select "Import Notebook" <br>
+![kaggle9](images/kaggle/kaggle9.png) <br>
+
+In the upload window select "Browse Files"<br>
+![kaggle10](images/kaggle/kaggle10.png) <br>
+
+Browse to the Downloaded notebook, and import it <br>
+![kaggle11](images/kaggle/kaggle11.png) <br>
+
+
 
 #### Step 2: Open the github repository directly from Colab
 When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. <br>
