@@ -34,8 +34,23 @@ Take note of where your download location is.
 ![Download Location](images/kaggle/downloaded_nb.png)
 
 #### Step 2: Navigate to Kaggle
+Select Sign In or Register for an account if you do not have one
 Navigate to Kaggle: ![https://www.kaggle.com/](https://www.kaggle.com/)
 ![Open Kaggle](images/kaggle/kaggle1.png)
+
+#### Step 3: Sign in if you have already registered and account
+Sign in with your preferred method. I used Google.
+![kaggle_sing_in](images/kaggle/kaggle2.png)
+
+Choose the account you wish to use
+![kaggle_sing_in_2](images/kaggle/kaggle3.png)
+
+#### Step 4: Ensure you have verified your account with Phone Verification - REQUIRED FOR GPU ACCESS
+Navigate tou your settings by clicking on the "Goose Head" icon in the upper right hand corner
+![kaggle_goose](images/kaggle/kaggle4.png)
+![kaggle_set](images/kaggle/kaggle5.png)
+![kaggle_phone](images/kaggle/kaggle6.png)
+![kaggle_phone2](images/kaggle/kaggle7.png)
 
 #### Step 2: Open the github repository directly from Colab
 When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. <br>
