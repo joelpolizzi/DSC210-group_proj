@@ -48,7 +48,9 @@ Choose the account you wish to use<br>
 #### Step 4: Ensure you have verified your account with Phone Verification - REQUIRED FOR GPU ACCESS
 Navigate tou your settings by clicking on the "Goose Head" icon in the upper right hand corner
 ![kaggle_goose](images/kaggle/kaggle4.png)<br>
+Select settings:<br>
 ![kaggle_set](images/kaggle/kaggle5.png)<br>
+Scroll to Phone Verification and follow the instructions. You will recieve a text verification code. <br>
 ![kaggle_phone](images/kaggle/kaggle6.png)<br>
 ![kaggle_phone2](images/kaggle/kaggle7.png)<br>
 
@@ -68,37 +70,22 @@ In the upload window select "Browse Files"<br>
 Browse to the Downloaded notebook, and import it <br>
 ![kaggle11](images/kaggle/kaggle11.png) <br>
 
+#### Step 6: Enable GPU and Internet
+Now that you have verified your phone and have imported the notebook you can enable the GPU accelerator <br>
+In the top left menu select "Settings" and Open "Accelerator". Select GPU P100 <br>
+![kaggle12](images/kaggle/kaggle12.png) <br>
 
+Now, turn on Internet as well in order to download the required pip packages
+![kaggle13](images/kaggle/kaggle13.png) <br>
 
-#### Step 2: Open the github repository directly from Colab
-When You navigate to Google Colab you will be prompted to open a notebook. On the left hand side there is a link to open from Github. <br>
-*Note: If you are not logged into github already then you may be prompted by colab to login in order for you to connect to the repo.<br>
-You will need to enter in our github URL into the search field: https://github.com/joelpolizzi/DSC210-group_proj
-![Open Github](images/colab2.png)
+#### We are now ready to run the notebook!
 
-#### Step 3: Select the Group_1_DataMining.ipynb
-Select the Group_1_DataMining.ipynb notebook and the project will open
-![Open datamine](images/colab3.png)
-
-#### Step 4: Select the T4 GPU Runtime
-- In the upper right hand corner we will change the runtime. If the runtime states "T4" then you can skip to [Step 5](#step-5-sequentially-run-the-notebook-cells) <br>
- ![current-runtime](images/colab5.png) <br>
-- To change the runtime open the "Connect" dropdown Menu: <br>
- ![change-runtime](images/colab6.png) <br>
-- Select "Change Runtime Type" and select "T4 GPU". Make sure you Save. <br>
-![change-runtime2](images/colab8.png) <br>
-- Then Select "Connect" and the Runtime will connect to the T4 GPU Runtime. <br>
-![connect](images/colab9.png) <br>
-- In the upper right hand side you should now see a green check mark with "T4" <br>
-![connected](images/colab10.png) <br>
-
-#### Step 5: Sequentially Run The Notebook Cells
+#### Step 7: Sequentially Run The Notebook Cells
 
 **For convience, in the first two cells of our notebook we are handeling the installation of python-pip dependencies for our project.**
 - Outputs in our cells have been pre-run. When a cell is re-run the outputs will be re-written.
 - Cells should be ran sequentially
 - Run the cells to get the outputs!
-
 
 ## Project Report
 Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
