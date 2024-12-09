@@ -65,15 +65,15 @@ In the upper left open the File menu and select "Import Notebook" <br>
 <img src="images/kaggle/kaggle9.png" alt="kaggle9" width="108" height="312"><br><br>
 
 In the upload window select "Browse Files"<br>
-![kaggle10](images/kaggle/kaggle10.png) <br>
+<img src="images/kaggle/kaggle10.png" alt="kaggle10" width="381" height="485"><br>
 
 Browse to the Downloaded notebook, and import it <br>
-![kaggle11](images/kaggle/kaggle11.png) <br>
+<img src="images/kaggle/kaggle11.png" alt="kaggle11" width="381" height="485"><br>
 
 #### Step 6: Enable GPU and Internet
 Now that you have verified your phone and have imported the notebook you can enable the GPU accelerator <br>
 In the top left menu select "Settings" and Open "Accelerator". Select GPU P100 <br>
-<img src="images/kaggle/kaggle12.png" alt="kaggle12" width="300" height="300"><br>
+<img src="images/kaggle/kaggle12.png" alt="kaggle12" width="301" height="117"><br>
 
 Now, turn on Internet as well in order to download the required pip packages
 ![kaggle13](images/kaggle/kaggle13.png) <br>
