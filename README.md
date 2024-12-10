@@ -64,7 +64,7 @@ In the upper left open the File menu and select "Import Notebook" <br>
 In the upload window select "Browse Files"<br>
 <img src="images/kaggle/kaggle10.png" alt="kaggle10" width="381" height="485"><br>
 
-Browse to the Downloaded notebook, and import it <br>
+From the cloned repo import the Group_1_DataMining.ipynb notebook into Kaggle <br>
 <img src="images/kaggle/kaggle11.png" alt="kaggle11" width="381" height="485"><br>
 
 #### Step 6: Enable GPU and Internet
