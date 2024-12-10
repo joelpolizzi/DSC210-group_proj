@@ -78,10 +78,13 @@ Now, turn on Internet as well in order to download the required pip packages. If
 #### We are now ready to run the notebook!
 
 #### Step 7: Sequentially Run The Notebook Cells
+Run the notebook cells in order to get each cells output.
 
-#### Step 8: To run the BERT4Rec model, make sure to upload the corresponding `Amazon.inter` and `Amazon.item` atomic files, and the `Amazon.yaml` configuration file.
+#### Step 8: To run the full BERT4Rec model, make sure to upload the corresponding `Amazon.inter` and `Amazon.item` atomic files, and the `Amazon.yaml` configuration file.
+In the notebook we clone the repository into the workspace. We will use these files for uploading as a new dataset.<br>
+
 In the Kaggle notebook, this needs to be uploaded as a dataset similar to creating the notebook. Navigate back to your front page and in the left hand pane select "Create" then in the drop down select "New Dataset". It is recommended to upload the necessary files as a zip.<br>
-Then, import the dataset into the notebook. Your dataset inside the notebook should look as the picture below (here, "amazon-input" is the dataset name).
+Then, import the dataset into the notebook. Your dataset inside the notebook should look as the picture below (here, "amazon-input" is the dataset name).<br>
 <img src="images/kaggle/kaggle14.jpeg" alt="kaggle13"><br>
 If using Google colab or local environment, please ensure to setup the dataset directory structure as per the [official guide](https://recbole.io/docs/v0.1.2/user_guide/usage/running_new_dataset.html) for the config to work correctly.
 We have provided two sets of atomic files in the repository.
