@@ -27,11 +27,8 @@ We are leveraging Kaggle for two key resons.
 
 _This notebook was tested using the free P100 GPU Runtime in Kaggle. Please use the P100 GPU Runtime._
 
-#### Step 1: Download the Group_1_DataMining.ipynb fro the repository
-In the right hand corner you will want to "Download raw file" to download the notebook
-![Download Notebook](images/kaggle/github1.png) <br>
-Take note of where your download location is. 
-![Download Location](images/kaggle/downloaded_nb.png)
+#### Step 1: Clone the repository (Group_1_DataMining.ipynb is the notebook to upload to Kaggle)
+![Clone repo](images/clonerepo.png)
 
 #### Step 2: Navigate to Kaggle
 Select Sign In or Register for an account if you do not have one
@@ -82,10 +79,27 @@ Now, turn on Internet as well in order to download the required pip packages. If
 
 #### Step 7: Sequentially Run The Notebook Cells
 
+#### Step 8: To run the BERT4Rec model, make sure to upload the corresponding `Amazon.inter` and `Amazon.item` atomic files, and the `Amazon.yaml` configuration file.
+In the Kaggle notebook, this needs to be uploaded as a dataset similar to creating the notebook. Navigate back to your front page and in the left hand pane select "Create" then in the drop down select "New Dataset". It is recommended to upload the necessary files as a zip.<br>
+Then, import the dataset into the notebook. Your dataset inside the notebook should look as the picture below (here, "amazon-input" is the dataset name).
+<img src="images/kaggle/kaggle14.jpeg" alt="kaggle13"><br>
+If using Google colab or local environment, please ensure to setup the dataset directory structure as per the [official guide](https://recbole.io/docs/v0.1.2/user_guide/usage/running_new_dataset.html) for the config to work correctly.
+We have provided two sets of atomic files in the repository.
+- `/DSC210-group_proj/Amazon` contains a smaller version of the dataset that caps out the Kaggle notebook GPU memory limits.
+- The [link](https://drive.google.com/drive/folders/1b3F9FOi8X8BqUUZ0E2Aii4Ud8kEZvQbP) to the Google Drive contains the full dataset (>100 MB) that can be used if superior hardware and compute power is available. Please visit the link and download the `Amazon_Musical_Instruments.zip` and rename the downloaded `.inter` and `.item` files as `Amazon.inter` and `Amazon.item`.
+
 **For convience, in the first two cells of our notebook we are handeling the installation of python-pip dependencies for our project.**
 - You may see Pip deps fail to resolve. The "error" can be ignored as it does not affect our notebooks run
 - Cells should be ran sequentially
 - Run the cells to get the outputs!
+
+## Results
+| Model | Precision@10 | NDCG@10 |
+|----------|----------|----------|
+| BPR | 0.524 | 0.377 | 
+| BERT4Rec (smaller dataset) | 0.0024 | 0.0118 |
+
+The above result for the transformer model is obtained on a substantially smaller version of the dataset, which only needs 16GB of GPU memory. The performance of the transformer model is exponentially better on the full dataset.
 
 ## Project Report
 Project report Latex and PDF can be found [HERE](./DSC210_Project_Report).
